@@ -1,12 +1,9 @@
 extends layout
 
 block content
-	h1#title Magellan's Voyage
-
-	p#blurb Magellan was an explorer!
-	button.btn.btn-default.location Next
-
+	div#repo
+		h1#title #{title}
+		p#blurb #{blurb}
+		button.btn.btn-default.location Next
 	include main.html
-
-
 	
